@@ -1,7 +1,8 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import './App.css';
-import { Layout, Menu } from 'antd';
+import Bio from './Components/About/Bio';
+import { Layout, Menu, Avatar } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 
 
@@ -12,6 +13,7 @@ const { Header, Footer, Sider, Content } = Layout;
 function App() {
   return (
     <div className="App">
+      <Router>
       <Layout>
         <Header className="App-header">Kate Lois G. Follett</Header>
         <Layout>
@@ -22,7 +24,8 @@ function App() {
               style={{ height: '100%', borderRight: 0, backgroundColor: '#637F42' }}
             >
               <SubMenu key="sub1" icon={<UserOutlined />} title="About">
-                <Menu.Item key="1">Bio</Menu.Item>
+                <Menu.Item key="1">
+                <Route exact path="/bio" component={Bio} /><Link to="/bio" />Bio</Menu.Item>
                 <Menu.Item key="2">Resume</Menu.Item>
                 <Menu.Item key="3">Skills</Menu.Item>
                 <Menu.Item key="4">Interests</Menu.Item>
@@ -43,11 +46,15 @@ function App() {
                 padding: 24,
                 margin: 0,
                 minHeight: 280,
-              }}>Content</Content>
+              }}>
+              <Avatar size={64} icon={<UserOutlined />} />
+              <br></br>
+              </Content>
             <Footer>Footer</Footer>
           </Layout>
         </Layout>
       </Layout>
+      </Router>
     </div>
   );
 }
