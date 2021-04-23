@@ -1999,17 +1999,17 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color:#9b4e0fe5;
+			background-color:#e5e5e5;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color:#c99e10e0;
+			background-color: #fca311;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style4 {
-			background-color: #4e6172da;
+			background-color: #14213d;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
@@ -2036,7 +2036,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #000000;
 		text-align: center;
 		position: fixed;
 		left: 0;
