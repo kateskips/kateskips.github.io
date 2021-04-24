@@ -2000,18 +2000,18 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color:#e5e5e5;
-			text-shadow: 1px 1px 0px #fff;
+			
 		}
 
 		.wrapper.style3 {
-			background-color: #fca311;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #fca211b0;
+			
 		}
 
 		.wrapper.style4 {
-			background-color: #14213d;
+			background-color: #14213dc0;
 			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
