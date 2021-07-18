@@ -1692,6 +1692,26 @@ input, select, textarea {
 		max-width: 24em;
 		
 	}
+	.project-code {
+	font-size: 15px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #BFAA72;
+	}
+	.project-stack {
+	font-size: 15px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #645B16;
+	}
+	.project-live {
+		font-size: 15px;
+		border-radius: 10px;
+		text-align: center;
+		background-color: #CD7D38;
+	}
+
+
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
@@ -1745,6 +1765,8 @@ input, select, textarea {
 			.button.alt:active {
 				background-color: #3f3f3f;
 			}
+
+
 
 /* List */
 
